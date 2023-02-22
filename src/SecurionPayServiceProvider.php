@@ -2,21 +2,27 @@
 
 namespace Corals\Modules\Payment\SecurionPay;
 
-use Illuminate\Support\ServiceProvider;
+use Corals\Foundation\Providers\BasePackageServiceProvider;
 use Corals\Settings\Facades\Modules;
 
-class SecurionPayServiceProvider extends ServiceProvider
+class SecurionPayServiceProvider extends BasePackageServiceProvider
 {
+    /**
+     * @var
+     */
     protected $defer = false;
+    /**
+     * @var
+     */
+    protected $packageCode = 'corals-payment-securionpay';
 
     /**
      * Bootstrap the application events.
      *
      * @return void
      */
-    public function boot()
+    public function bootPackage()
     {
-        $this->registerModulesPackages();
     }
 
     /**
@@ -24,7 +30,7 @@ class SecurionPayServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function registerPackage()
     {
     }
 
