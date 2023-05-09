@@ -6,7 +6,7 @@
     "description": "Payment Gateway, charges, subscriptions, invoices...",
     "namespace": "Corals\\Modules\\Payment\\SecurionPay",
     "version": "2.1.1",
-    "folder": "SecurionPay",
+    "folder": "payment-securionpay",
     "autoload": "psr-4",
     "icon": "fa fa-credit-card",
     "require": {
