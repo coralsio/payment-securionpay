@@ -1,6 +1,7 @@
 # Corals Payment Securionpay
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+* SecurionPay subscriptions Plugin is the first Laravel Plugin for handling recurring billing for SecurionPay. integrate SecurionPay seamlessly with Laraship Subscription Platform, You can enable it along with other subscription gateways like stripe which is already built in with Laraship Subscriptions platform or configure it as a standalone payment gateway.
+* SecurionPay powerful API gives users the huge flexibility to create payment scenarios that fit their business needs the most. Streamline the payment process and provide your customers with the superior user experience.
 
 ## Installation
 
